@@ -1,0 +1,14 @@
+{
+  "name": "interviewv3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "runui":"cd education-ui && npm start",
+    "runcds":"cd education-service && cds watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
