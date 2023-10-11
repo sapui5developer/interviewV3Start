@@ -11,14 +11,15 @@
     "express": "^4"
   },
   "devDependencies": {
-    "@cap-js/sqlite": "^1"
+    "@cap-js/sqlite": "^1",
+    "@sap/cds-dk": "^7.3.0"
   },
   "scripts": {
     "start": "cds-serve"
   },
-  "cds":{
-    "cov2ap" : {
-      "plugin" : true
-      }
+  "cds": {
+    "cov2ap": {
+      "plugin": true
     }
+  }
 }
